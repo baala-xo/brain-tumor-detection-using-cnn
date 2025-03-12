@@ -4,3 +4,4 @@ gradio
 numpy
 opencv-python
 pillow
+huggingface_hub
