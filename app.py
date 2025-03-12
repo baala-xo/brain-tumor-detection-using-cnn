@@ -10,9 +10,7 @@ from torchvision import transforms
 from huggingface_hub import hf_hub_download
 import os
 
-port = int(os.environ.get("PORT", 8080))  # Use Render's assigned port
-
-
+port = int(os.environ.get("PORT", 8080))  # Default to 8080 for local testing
 
 # ✅ Load the trained model
 # Download the model from Hugging Face
